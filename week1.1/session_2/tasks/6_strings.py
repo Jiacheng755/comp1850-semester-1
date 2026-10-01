@@ -2,10 +2,12 @@
 # add a comment using # to each one to explain what it does
 
 user_string = input("Enter a string: ")
-
 print(f"\nOriginal String: {user_string}")
+#change all letters to lower case
 print(f"Modified String 1: {user_string.lower()}")
+#change all letters to upper case
 print(f"Modified String 2: {user_string.upper()}")
+#remove space at start and end of the text
 print(f"Modified String 3: {user_string.strip()}")
 print(f"Modified String 4: {user_string.replace('a', '@')}")
 print(f"Modified String 5: {user_string.capitalize()}")

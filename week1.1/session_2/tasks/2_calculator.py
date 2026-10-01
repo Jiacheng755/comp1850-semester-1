@@ -1,13 +1,13 @@
 # Fill out the code to make a very simple calculator
 
-# ask the user to enter number1:
 
+num1 = 4
 
-# ask the user to enter number 2:
+num2 = 8
 
+total = num1 * num2 
 
-# calculate the result of adding those numbers together
+print(f"{num1} and {num2} = {total}")
 
-
-# print out the answer
+print("please enter numbers only.")
 
